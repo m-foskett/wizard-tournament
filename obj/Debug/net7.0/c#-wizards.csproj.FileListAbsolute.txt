@@ -1,0 +1,15 @@
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\bin\Debug\net7.0\c#-wizards.exe
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\bin\Debug\net7.0\c#-wizards.deps.json
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\bin\Debug\net7.0\c#-wizards.runtimeconfig.json
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\bin\Debug\net7.0\c#-wizards.dll
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\bin\Debug\net7.0\c#-wizards.pdb
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\obj\Debug\net7.0\c#-wizards.csproj.AssemblyReference.cache
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\obj\Debug\net7.0\c#-wizards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\obj\Debug\net7.0\c#-wizards.AssemblyInfoInputs.cache
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\obj\Debug\net7.0\c#-wizards.AssemblyInfo.cs
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\obj\Debug\net7.0\c#-wizards.csproj.CoreCompileInputs.cache
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\obj\Debug\net7.0\c#-wizards.dll
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\obj\Debug\net7.0\refint\c#-wizards.dll
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\obj\Debug\net7.0\c#-wizards.pdb
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\obj\Debug\net7.0\c#-wizards.genruntimeconfig.cache
+C:\Users\foske\Documents\My Documents\Projects\c#-wizards\obj\Debug\net7.0\ref\c#-wizards.dll
