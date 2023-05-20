@@ -4,17 +4,11 @@ namespace wizards
 {
     class Program
     {
-        enum MagicTypes
-        {
-            Fire,
-            Water,
-            Earth,
-            Grass,
-            Neutral,
-        };
+
         [SupportedOSPlatform("windows")]
         static void Main(string[] args)
         {
+            Wizard player = new Wizard("DefaultName", "DefaultSpell", Wizard.MagicTypes.Neutral);
             // Change console settings
             Console.Title = "Grand Wizard Tournament";
             Console.WindowHeight = 40;
@@ -24,10 +18,10 @@ namespace wizards
             Console.WriteLine("What might your name be?");
             // Wait for user response
             Console.ForegroundColor = ConsoleColor.Red;
-            string name = Console.ReadLine() ?? string.Empty;
+            player.name = Console.ReadLine() ?? string.Empty;
             // NPC Dialog
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("\nSo your name is " + name + "? Hmmm... never heard of you.\nI hope you know what you're getting yourself into.\n");
+            Console.WriteLine("\nSo your name is " + player.name + "? Hmmm... never heard of you.\nI hope you know what you're getting yourself into.\n");
 
             // NPC Dialog
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -44,7 +38,7 @@ namespace wizards
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("\nChoose your magic style by entering a number between 1-4.\n");
 
-            MagicTypes chosenType = MagicTypes.Neutral;
+            player.magicType = Wizard.MagicTypes.Neutral;
             int choice;
             bool chosen = false;
             while (!chosen)
@@ -58,22 +52,22 @@ namespace wizards
                 {
                     case 1:
                         Console.WriteLine("\nSo you're a Fire type ay?\n");
-                        chosenType = MagicTypes.Fire;
+                        player.magicType = Wizard.MagicTypes.Fire;
                         chosen = true;
                         break;
                     case 2:
                         Console.WriteLine("\nSo you're a Water type ay?\n");
-                        chosenType = MagicTypes.Water;
+                        player.magicType = Wizard.MagicTypes.Water;
                         chosen = true;
                         break;
                     case 3:
                         Console.WriteLine("\nSo you're a Earth type ay?\n");
-                        chosenType = MagicTypes.Earth;
+                        player.magicType = Wizard.MagicTypes.Earth;
                         chosen = true;
                         break;
                     case 4:
                         Console.WriteLine("\nSo you're a Grass type ay?\n");
-                        chosenType = MagicTypes.Grass;
+                        player.magicType = Wizard.MagicTypes.Grass;
                         chosen = true;
                         break;
                     default:
@@ -81,7 +75,20 @@ namespace wizards
                         break;
                 };
             };
-            Console.WriteLine("\nPssh... I hate " + chosenType + " types...\nAlright, get ready " + name + ".\nThe tournament is about to start...\n");
+            Console.WriteLine("\nPssh... I hate " + player.magicType + " types...\nAlright, get ready " + player.name + ".\nThe tournament is about to start...\n");
+
+            // Test Battle
+            Wizard opponent = new Wizard("Blaze", "Incinerate", Wizard.MagicTypes.Fire);
+            Battle battle = new Battle(player, opponent);
+            battle.Round();
+
+
+
+
+
+
+
+
 
             // Wait for user input
             Console.ForegroundColor = ConsoleColor.White;
