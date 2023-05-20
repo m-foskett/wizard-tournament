@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\foske\\Documents\\My Documents\\Projects\\c#-wizards\\c#-wizards.csproj": {}
+    "C:\\Users\\foske\\Documents\\My Documents\\Projects\\wizard-tournament\\c#-wizards.csproj": {}
   },
   "projects": {
-    "C:\\Users\\foske\\Documents\\My Documents\\Projects\\c#-wizards\\c#-wizards.csproj": {
+    "C:\\Users\\foske\\Documents\\My Documents\\Projects\\wizard-tournament\\c#-wizards.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\foske\\Documents\\My Documents\\Projects\\c#-wizards\\c#-wizards.csproj",
+        "projectUniqueName": "C:\\Users\\foske\\Documents\\My Documents\\Projects\\wizard-tournament\\c#-wizards.csproj",
         "projectName": "c#-wizards",
-        "projectPath": "C:\\Users\\foske\\Documents\\My Documents\\Projects\\c#-wizards\\c#-wizards.csproj",
+        "projectPath": "C:\\Users\\foske\\Documents\\My Documents\\Projects\\wizard-tournament\\c#-wizards.csproj",
         "packagesPath": "C:\\Users\\foske\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\foske\\Documents\\My Documents\\Projects\\c#-wizards\\obj\\",
+        "outputPath": "C:\\Users\\foske\\Documents\\My Documents\\Projects\\wizard-tournament\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Roaming Files\\NuGet\\NuGet.Config",
